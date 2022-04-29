@@ -44,7 +44,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return y - x;
+  return x - y;
 }
 
 function multiplica(x, y) {
@@ -133,13 +133,13 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return Math.pow (num, exponent)
+ return Math.pow (num, exponent) 
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-
+ return Math.round (num) 
 }
 
 function redondearHaciaArriba(num) {
